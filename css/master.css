@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* start header  */
+.landing .header {
+    background-color: #303947;
+    padding: 40px 80px;
+    width: 100%;
+    position: fixed;
+}
+.landing .header .box {
+    display: flex;
+    gap: 50px;
+}
+
+.landing .header .box .one {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.landing .header .box .one:first-of-type {
+    color: deeppink;
+}
+/* end header  */
+/* start content  */
+.content {
+    padding: 40px 80px;
+}
+.content .cont h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.content .cont p {
+    color: gray;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.content .cont  span {
+    color:  deeppink;
+    font-weight: 900;
+}
+.content .cont  span:hover{
+    color:black;
+}
+/* end content  */
+
+/* start compitable */
+.compitable {   
+    padding: 40px 80px;
+}
+.compitable .comp .icon {
+    display: flex;
+} 
+.compitable .comp .icon h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}   
+.compitable .comp .icon .thumb  {
+    color: burlywood;
+    margin: 10px;
+    font-size: 18px;
+}  
+.compitable .comp p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: gray;
+}
+/* end compitable */
+
+/* start navigation */
+.navgation {
+    padding: 40px 80px;
+}
+.navgation .nav h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.navgation .nav p {
+    font-size: 18px;
+}
+.navgation .nav a {
+    text-decoration: none;
+    padding: 5px;
+    background-color:#eee;
+    border-radius: 5px;
+    color: deeppink;
+}
+/* end navigation */
+
+/* start credits */
+.credits {
+    padding: 40px 80px;
+}
+.credits .cred h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.credits .cred p {
+    line-height: 1.8;
+    font-size: 18px;
+    color: gray;
+    font-weight: bold;
+}
+.credits .cred span {
+    color: deeppink ;
+}
+.credits .cred span:hover {
+    color: black ;
+}
+/* end credits */
+
+/* media  */
+@media (max-width :767px) {
+    .landing .header {
+        padding: 15px 20px ;
+    }
+    .landing .header .box { 
+        gap: 35px;
+        text-align: center;
+    }
+    .content,
+    .compitable,
+    .navgation,
+    .credits {
+        padding: 60px 30px 20px;
+    }
+    .content .cont h2,
+    .compitable .comp .icon h3,
+    .navgation .nav h3,
+    .credits .cred h2  {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .content .cont p,
+    .compitable .comp p,
+    .navgation .nav p,
+    .credits .cred p  { 
+        font-size: 15px;
+        padding:  10px;
+    }
+    .compitable .comp .icon {
+        text-align: center;
+        justify-content: center
+    }
+}
