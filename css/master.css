@@ -22,7 +22,10 @@ body {
     display: flex;
     gap: 50px;
 }
-
+.content .cont h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
 .landing .header .box .one {
     color: white;
     font-size: 18px;
@@ -40,12 +43,6 @@ body {
     font-size: 40px;
     margin-bottom: 20px;
 }
-.content .cont p {
-    color: gray;
-    font-size: 20px;
-    line-height: 1.8;
-}
-
 .content .cont  span {
     color:  deeppink;
     font-weight: 900;
@@ -68,7 +65,7 @@ body {
 }   
 .compitable .comp .icon .thumb  {
     color: burlywood;
-    margin: 10px;
+    margin: 13px;
     font-size: 18px;
 }  
 .compitable .comp p {
